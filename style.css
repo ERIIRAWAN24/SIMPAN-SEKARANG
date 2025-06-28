@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* INDEX COVER AWAL */
+
+/* animasi overlay */
+.display-4 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* Efek timbul */
+    animation: muncul 1s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes muncul {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+span {
+  color:gold;
+}
+.text-warning {
+  color:#e9dff8;
+}
+
+.card-group {
+margin-top: 50px;
+}
+.d-grid :hover{
+  color:white ;
+}
+
+
+
+/* COVER AKHIR */
+    
+/* index.html dashboard*/
+    body {
+      background-color: #f3f0fb;
+    }
+
+    .sidebar {
+      background-color: #f8f9fa;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .sidebar a {
+      display: block;
+      margin-bottom: 10px;
+      color:white;
+      text-decoration: none;
+    }
+    .sidebar a:hover {
+      color: #007bff;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+    }
+  
+
+
+    /* PROFILE */
+   .flex-grow-1 h1 {
+color:burlywood;
+   }
+
+   .sidebar {
+    background-color: rgb(5, 47, 145);
+   }
+    
+
+   /* style.css */
+.card {
+  background-color: white;
+}
+
+
+/* TENTANG */
+.profile-card {
+  max-width: 300px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #007bff;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.profile-desc {
+  color: #666;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    background-color: lightgray;
+  }
+}
+
+
